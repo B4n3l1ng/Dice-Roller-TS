@@ -21,6 +21,8 @@ function App() {
     setResult(value);
     if (dice !== 100) {
       setImages(turnToObject(dice, array));
+    } else {
+      setImages(undefined);
     }
   };
 
